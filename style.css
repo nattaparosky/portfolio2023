@@ -1,4 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
+    height: 100vh;
     background-color: #000000;
     color: #F6F6F6;
 }
@@ -9,4 +15,11 @@ strong {
 
 img {
     max-width: 500px;
+    border-radius: 10%;
+    border: solid #22D4FD;
+}
+
+.presentation {
+    display: flex;
+    align-items: center;
 }
